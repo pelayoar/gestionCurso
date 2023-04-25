@@ -61,7 +61,7 @@ class Login:
         usuario = self.entry_user.get()
         password = self.entry_password.get()
         if usuario == self.user and password == self.passw:
-            self.label_correcto.pack()
+            #self.label_correcto.pack()
             self.ventana.destroy()
             self.addCurso = AddCurso()
 
